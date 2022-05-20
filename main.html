@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js" integrity="sha256-HkXXtFRaflZ7gjmpjGQBENGnq8NIno4SDNq/3DbkMgo=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <title>Grandma's project</title>
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar navbar-expand-lg px-4 bg-light">
+            <a href="#home" class="underline-link"> <img src="iconfinder_Food_Drink_Foods_Donut_Doughnut_Sweet_Dessert_3929507 (1).png" class="rounded"><span ></span></a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target= "#myNavbar" aria-expanded="false" >
+               <span class="toggler-icon">
+                    <i class="fas fa-bars"></i> 
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav text-capitalize mx-auto">
+                    <li class="nav-item active mx-1">
+                        <a href="#header" class="nav-link text-dark">home</a>
+                    </li>
+                    <li class="nav-item active mx-1 ">
+                        <a href="#about" class="nav-link text-dark ">about</a>
+                    </li>
+                    <li class="nav-item active mx-1">
+                        <a href="#store" class="nav-link text-dark ">store</a>
+                    </li>
+                    <li class="nav-item active mx-1 ">
+                        <a href="#services" class="nav-link text-dark ">services</a>
+                    </li>
+                    <li class="nav-item active mx-1">
+                        <a href="#cakes" class="nav-link text-dark ">order</a>
+                    </li>
+                
+                </ul>
+                <div class="nav-info-items d-none d-lg-flex">
+                    <!-- single info -->
+                    <div class="nav-info align-items-center d-flex justify-content-between mx-lg-5">
+                        <span class="info-icon mx-lg-3">
+                            <i class="fas fa-phone"></i>
+                        </span>
+                        <p class="mb-0">+123 456 789</p>
+                    </div>
+                    <div id="cart-info" class="nav-info align-items-center cart-info d-flex justify-content-between mx-lg-5">
+                        <span class="cart-info__icon mr-lg-3">
+                            
+                            <i class="fas fa-shopping-cart"></i>
+                        </span>
+                        <p class="mb-0 text-capitalize">
+                             <span id="item-count">2</span>
+                                items - $
+                            <span class="item-total">
+                               10.49
+                            </span>
+                        </p>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        <!--banner-->
+        <div class="container-fluid parent">
+            <div class="cart bg-light p-2">
+                <a id="exit-cart" class="d-block">
+                    <span class="text-danger my-3 mx-2 text-start exit-cart-sign">&#10007;</span>
+                </a>
+                <h3 class="footer-header text-center my-1">purchases</h3>
+                <hr>
+                <div class="row justify-content-around my-3">
+                    <div class="col-4">
+                        <img src="download (1).jpg" class="cart-img">
+                    </div>
+                    <div class="col-4">
+                        <h3 class="cart-header mx-3">Cart Item</h3>
+                        <p class="m-2">10.99</p>
+                    </div>
+                    <div class="col-4 ">
+                        <i class="fas fa-trash"></i>
+                    </div>
+                </div>
+                <div class="row justify-content-around">
+                    <div class="col-4">
+                        <img src="download (1).jpg" class="cart-img">
+                    </div>
+                    <div class="col-4">
+                        <h3 class="cart-header mx-3">Cart Item</h3>
+                        <p class="m-2">10.99</p>
+                    </div>
+                    <div class="col-4 ">
+                        <i class="fas fa-trash"></i>
+                    </div>
+                </div>
+                <div class="row justify-content-around my-3 py-3">
+                    <span>Total</span>
+                    <span>10.99</span>
+                </div>
+                <div class="row justify-content-around my-2 ">
+                   
+                     <buuton class="section-button"> CLEAR CART </buuton>
+                     <buuton  class="section-button"> CLEAR CART </buuton>
+                   
+                </div>
+                
+            </div>
+            <div class="row max-height justify-content-center align-items-center">
+                <div class="col-10 mx-auto banner text-center">
+                    <h1 class="text-capitalize my-2">
+                        welcome to <strong class="banner-title">Joe restaurant</strong>
+                    </h1>
+                    <a href="#store" class="btn banner-link text-uppercase my-2">explore</a>
+                </div>
+            </div>
+        </div>
+    </header> 
+    <!--about section-->
+    <section class="container">
+        <div class="row my-5">
+            <div class=" col-md-6 text-start about-section">
+                <h2 class="about-header">About <span>Us</span></h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit incidunt quod sapiente reprehenderit hic laudantium ut corporis? Nemo, unde. Ipsum deserunt assumenda ab libero quia.
+                <button class=" d-block mx-auto my-2 section-button">EXPLORE</button>
+            </div>
+            <div class=" col-md-6">
+                <img src="donuts-2969490_1280.jpg" class="img-fluid float-right about-img">
+            </div>
+        </div>
+    </section>
+    <!--store section-->
+    <div class="container-fluid store ">
+        <section class="container my-2 py-2">
+            <div class="row text-center">
+                <div class="col-12 ">
+                    <h2 class="store-header">Our Store</h2>
+                </div>
+                <div class="col-12 d-flex justify-content-around my-2">
+                    <button class="store-item-button">ALL</button>
+                    <button class="store-item-button">CAKES</button>
+                    <button class="store-item-button">CUPCAKES</button>
+                    <button class="store-item-button">SWEETS</button>
+                    <button class="store-item-button">DOUGHNUTS</button>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-10">
+                        <div class="input-group my-3">
+                            <div class="input-group-prepend ">
+                                <span class="input-group-text bg-danger"><i class="fas fa-search "></i></span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="username">
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="container">
+                <div class="row justify-content-around">
+                    <div class="col-md-4 my-1">
+                        <div class="card single-item">
+                            <div class="img-container">
+                                <img src="pexels-arminas-raudys-808941.jpg" class="card-img-top store-img">
+                                <span class="store-item-icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                            <div class="card-body text-center">
+                                <h4 class="store-card-header">Sweets</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quibusdam?</p>
+                                <button type="button" class="section-button">See more</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 my-1">
+                        <div class="card single-item">
+                            <div class="img-container">
+                                <img src="pexels-oleg-magni-890577.jpg" class="card-img-top store-img">
+                                <span class="store-item-icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                            <div class="card-body text-center">
+                                <h4 class="store-card-header">Choco sticks</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quibusdam?</p>
+                                <button type="button" class="section-button">See more</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 my-1">
+                        <div class="card single-item">
+                           <div class="img-container">
+                            <img src="pexels-igor-ovsyannykov-205961.jpg" class="card-img-top store-img">
+                            <span class="store-item-icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </span>
+                           </div>
+                            <div class="card-body text-center">
+                                <h4 class="store-card-header">Table from the heaven</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quibusdam?</p>
+                                <button type="button" class="section-button">See more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-around">
+                    <div class="col-md-4 my-1">
+                        <div class="card single-item">
+                            <div class="img-container">
+                                <img src="pexels-david-jakab-959079.jpg" class="card-img-top store-img">
+                                <span class="store-item-icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                            <div class="card-body text-center">
+                                <h4 class="store-card-header">Sweets</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quibusdam?</p>
+                                <button type="button" class="section-button">See more</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 my-1">
+                        <div class="card single-item">
+                            <div class="img-container">
+                                <img src="pexels-sheena-wood-574111.jpg" class="card-img-top store-img">
+                                <span class="store-item-icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </span>
+                            </div>
+                            <div class="card-body text-center">
+                                <h4 class="store-card-header">Choco sticks</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quibusdam?</p>
+                                <button type="button" class="section-button">See more</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 my-1">
+                        <div class="card single-item">
+                           <div class="img-container">
+                            <img src="pexels-suzy-hazelwood-1126359.jpg" class="card-img-top store-img">
+                            <span class="store-item-icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </span>
+                           </div>
+                            <div class="card-body text-center">
+                                <h4 class="store-card-header">Table from the heaven</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quibusdam?</p>
+                                <button type="button" class="section-button">See more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--services section-->
+    
+    <div class="container-fluid py-3 text-center services-bg text-white" id="services">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-4 my-3">
+                    <img src="iconfinder_Candy_1651915.png" >
+                    <h3 class="service-header"> candy</h3>
+                    <p class="service-desc ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, odit.</p>
+                </div>
+                <div class="col-md-4 my-2">
+                    <img src="iconfinder_cupcake_1760350.png" >
+                    <h3 class="service-header">sweet</h3>
+                    <p class="service-desc ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, odit.</p>
+                </div>
+                <div class="col-md-4 my-2">
+                    <img src="iconfinder_chocolate_bar_1760339.png" >
+                    <h3 class="service-header">cupcake</h3>
+                    <p class="service-desc ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, odit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--order section-->
+    <div class="container-fluid background">
+        <div class="row">
+            <div class="col-md-10 mx-auto my-3">
+                <h3 class="text-center order-header">
+                    Order <strong class="order-header-cake">Cake</strong>
+                </h3>
+            </div>
+        </div>
+        <div class="row justify-content-between text-center mx-auto">
+            <div class="col-md-6">
+                <div class="order-items">
+                    <h3 class="order-item-header">Birthday Cake</h3>
+                    <p class="my-3 order-item text-muted">Birthday Cake</p>
+                    <p class="my-3 order-item text-muted">Custom Cake</p>
+                    <p class="my-3 order-item text-muted">custom cake</p>
+                    <p class="my-3 order-item text-muted">Birthday Cake with a name</p>
+                    <button class="section-button my-2">Order Now</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="order-items">
+                    <h3 class="order-item-header my-2">Custom Cake</h3>
+                    <p class="my-3 order-item text-muted">Birthday Cake</p>
+                    <p class="my-3 order-item text-muted">Custom Cake</p>
+                    <p class="my-3 order-item text-muted">custom cake</p>
+                    <p class="my-3 order-item text-muted">Birthday Cake with a name</p>
+                    <button class="section-button my-2">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer section-->
+    <section class="contaier-fluid my-3">
+        <div class="row">
+            <div class="col-md-6 mx-auto my-2 py-5 text-light bg-dark">
+                <div class="footer-header text-center ">
+                     <h2 class="text-light">Contacts</h2>
+                </div>
+                <div class="contacts-info">
+                    <div class="contacts-info-item mx-2 my-2">
+                        <span>
+                            <i class="fas fa-sms"></i>
+                            <span>email@email.com</span>
+                        </span>
+                    </div>
+                    <div class="contacts-info-item mx-2 my-2">
+                        <span>
+                            <i class="fas fa-map-marker"> </i>
+                            <span>37 Main Street, San Diego, CA, 90101</span>
+                        </span>
+                    </div>
+                    <div class="contacts-info-item mx-2 my-2">
+                        <span>
+                            <i class="fas fa-phone-square-alt"> </i>
+                            <span>+123-456-789</span>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-6 mx-auto background my-2 py-5">
+                <div class="footer-header text-center">
+                     <h2>Joe's restaurant</h2>
+                </div>
+                <div class="row justify-content-around">
+                    <span>
+                        <i class="fab fa-facebook"></i>
+                        <a>Youssef Hamada</a>
+                    </span>
+                    <span>
+                        <i class="fab fa-instagram"></i>
+                        <a>Youssef_joe_97</a>
+                    </span>
+                    <span>
+                        <i class="fab fa-google-plus-square"></i>
+                        <a href="#">Hamaday468@gmail.com</a>
+                    </span>
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>

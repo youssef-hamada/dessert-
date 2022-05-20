@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+
+:root {
+    --mainPink:#ef7998;
+    --mainYellow: rgb(249, 228, 148);
+    --mainWhite: #fff;
+    --mainBlack:#000;
+    --yellowTrans: rgba(249,228,148,0.5);
+    --mainGray: rgb(238,238,238);
+}
+
+body {
+    /* font-family: "kaushan script", cursive; */
+    background: var(--mainWhite);
+    color: var(--mainBlack);
+}
+.underline-link{
+    text-decoration: none;
+}
+.brand-text{
+    font-family: "kaushan scipt";
+    color: orangered;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*  nav links */
+.navbar-toggler{
+    outline: none !important;
+}
+.toggler-icon{
+    font-size:2.4rem;
+    color: var(--mainPink);
+}
+
+/* nav links */ 
+.navbar-toggler{
+    outline: none !important;
+}
+.li-hover:hover{
+    color: var(--mainPink);
+}
+
+.toggler-icon{
+    font-size: 2.5rem;
+    color: var(--mainPink);    
+}
+
+.cart-info__icon{
+    color: var(--mainBlack);
+    cursor: pointer;
+}
+.cart-info{
+    border: 0.1rem solid var(--mainBlack);
+    color: var(--mainBlack);
+    border-radius: 0.25rem;
+    padding: 0.4rem;
+}
+
+.cart-info:hover{
+    background-color: var(--mainPink);
+    border-color: var(--mainPink);
+    color: var(--mainWhite);
+    cursor: pointer;
+}
+
+.max-height{
+    min-height: 50vh;
+    background-image: url(5204889.jpg);
+
+}
+.banner,.banner-link{
+    font-size: 3rem;
+    color: var(--mainPink);
+    font-family: "kaushan script";
+}
+.banner-title{
+    font-size: 3rem;
+    color: var(--mainPink);
+}
+.banner > .btn{
+    outline: none;
+    border: 0.1rem solid var(--mainPink);
+}
+.banner-link:hover{
+    background-color: var(--mainPink);
+    border-color: var(--mainPink);
+}
+.about-section{
+    /* font-family: "kaushan script", cursive ; */
+    font-size: 1.8rem;
+}
+.about-header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    text-align: center;
+}
+.store{
+    background-color: var(--mainGray);
+}
+.section-button{
+    font-family:"kaushan script", cursive ;
+    border: 0.1rem solid var(--mainPink);
+    border-radius: 0.25rem;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.about-section span {
+    font-size: 3rem;
+    color: var(--mainPink);
+}
+
+.section-button:hover{
+    background-color: var(--mainPink);
+}
+.store-item-button{
+    font-family: "kaushan script", cursive ;
+    color: var(--mainBlack);
+    border-radius: 0.25rem;
+    border-color: var(--mainBlack);
+}
+.store-item-button:hover{
+    background-color: var(--mainPink);
+    border-color: var(--mainPink);
+}
+.store-card-header{
+    color: var(--mainPink);
+}
+.single-item{
+    transition: all 0.3 linear;
+}
+.single-item:hover {
+    box-shadow: 0 10px 15px rgb(0,0,0);
+    cursor: pointer;
+}
+.img-container{
+    position:relative;
+    overflow: hidden;
+}
+.store-img{
+    transition: all 1s ease-in-out;
+}
+.img-container:hover .store-img{
+    transform: scale(1.2);
+}
+.store-item-icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0.75rem;
+    background-color: var(--mainPink);
+    border-top-left-radius: 1rem;
+    transition: all 1s ease-in-out;
+    transform: translate(100%,100%);
+}
+.img-container:hover .store-item-icon{
+    transform: translate(0,0);
+}
+.service-header{
+    letter-spacing: 0.5rem;
+}
+.service-desc{
+    word-spacing: 0.5rem;
+}
+.services-bg{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("pexels-julio-melanda-1448721.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family:"kaushan script", cursive ;
+}
+
+.order-header-cake{
+    font-size: 4rem;
+    color: var(--mainPink);
+}
+.order-header{
+    font-family:"kaushan script", cursive ;
+}
+.order-item-header{
+    color: var(--mainPink);
+    font-family:"kaushan script", cursive ;
+}
+.order-item{
+    font-family:"kaushan script", cursive ;
+    cursor: pointer;
+}
+.background{
+    background-color: var(--mainGray);
+}
+.footer-header{
+    font-family: "kaushan script", cursive ;
+    color: var(--mainPink);
+}
+.cart{
+    position: fixed;
+    top: 0;
+    right: 0;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 28rem;
+    font-family: "kaushan script", cursive ;
+    visibility: hidden;
+    z-index: 2;
+}
+.cart-img{
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+}
+.cart-header{
+    font-size: 1rem;
+}
+.exit-cart-sign{
+    cursor: pointer;
+    
+}
